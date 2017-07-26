@@ -11,6 +11,7 @@ csvDictReader = csv.DictReader(dataFile2)
 for row in csvReader:
     print(row)
 
+
 #csvDictReader 사용시 fieldname을 분리할 수 있음.
 print(csvDictReader.fieldnames)
 for row in csvDictReader:
